@@ -78,7 +78,7 @@ User "jdoe" enters his password and is prompted to change his password.
 
 <p align="center"><img width="400" height="400" alt="Jdoe entered password and now has to change password" src="https://github.com/user-attachments/assets/1b380321-fb18-4263-8b6b-8ec98435922f" />
 
-User "jdoe" was able to login in to the Windows 10 Virtual Machine successfully, this was confirmed to be his account by typing "whoami" in Powershell and it shows he was logged into the Domain Controller. 
+ After unlocking the account and enforcing a password reset in Active Directory, user jdoe successfully logged into the domain-joined Windows 10 client, validating end-to-end domain authentication.
 
 <p align="center"><img width="400" height="400" alt="jdoe was able to login successfully" src="https://github.com/user-attachments/assets/71a005d9-0eb9-4831-b7e5-3a94d8ea6483" />
 
